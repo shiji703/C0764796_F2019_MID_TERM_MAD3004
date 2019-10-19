@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+let date =  Date()
+
+var customerDictionary = Dictionary<String,Customer>()
+
 
