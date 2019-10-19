@@ -8,8 +8,13 @@
 
 import Foundation
 
-class Customer
+class Customer : iDisplay
 {
+    func iDisplay()
+    {
+        print("Customer ID : \(custId)")
+    }
+    
     var custId: Int
     var fName: String
     var lName: String
@@ -25,5 +30,6 @@ class Customer
         self.fullName = fullName
         self.eId = eId
     }
+    
     
 }
