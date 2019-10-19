@@ -8,14 +8,18 @@
 
 import Foundation
 
-class Bill
+class Bill : iDisplay
 {
+    func iDisplay() {
+        
+    }
+    
     var bId : Int
     var bDate: Date
     var bType : String
     var bAmount : Float
     
-    init(bId: Int,bDate: Date,bType: String,bAmount: Float)
+    init (bId: Int,bDate: Date,bType: String,bAmount: Float)
     {
         self.bId = bId
         self.bDate = bDate
@@ -23,4 +27,5 @@ class Bill
         self.bAmount = bAmount
     }
     
+
 }
