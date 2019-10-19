@@ -12,7 +12,11 @@ class Insurance : iDisplay
 {
     func iDisplay()
     {
-        
+        print("Insurance Type : \(iType)")
+        print("Insurance Provider : \(iProvider)")
+        print("Start Date : \(sDate)")
+        print("End Date : \(eDate)")
+        print("Total months of installment : \(iMonth)")
     }
     
     var iType: String
