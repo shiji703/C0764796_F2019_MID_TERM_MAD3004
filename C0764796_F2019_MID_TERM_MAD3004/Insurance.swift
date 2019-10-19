@@ -18,6 +18,11 @@ class Insurance
     
     init(iType: String,iProvider: String,sDate: Date,eDate: Date,iMonth: Int)
     {
-        
+        self.iType = iType
+        self.iProvider = iProvider
+        self.sDate = sDate
+        self.eDate = eDate
+        self.iMonth = iMonth
     }
+
 }
