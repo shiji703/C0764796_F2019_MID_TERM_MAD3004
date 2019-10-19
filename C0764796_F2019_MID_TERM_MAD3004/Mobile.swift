@@ -24,5 +24,8 @@ class Mobile : Bill
         self.iGbused = iGbused
         self.minutes = minutes
         
+        
+        super.init(bId: bId, bDate: bDate, bType: bType, bAmount: bAmount)
     }
+
 }
