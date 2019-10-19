@@ -10,5 +10,10 @@ import Foundation
 
 class Mobile : Bill
 {
+    var mName : String
+    var planName : String
+    var mNumber : Int
+    var iGbused : Float
+    var minutes : Int
     
 }
