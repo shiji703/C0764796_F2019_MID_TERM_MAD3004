@@ -8,8 +8,13 @@
 
 import Foundation
 
-class Insurance
+class Insurance : iDisplay
 {
+    func iDisplay()
+    {
+        
+    }
+    
     var iType: String
     var iProvider: String
     var sDate: Date
