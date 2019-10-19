@@ -15,5 +15,11 @@ class Customer
     var lName: String
     var fullName: String
     var eId: String
+    var billDictionary = Dictionary<String,Bill>()
+    
+    init(custId: Int,fName: String,lName: String,fullName: String,eId: String)
+    {
+        
+    }
     
 }
