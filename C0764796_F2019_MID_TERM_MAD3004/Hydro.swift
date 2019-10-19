@@ -25,6 +25,10 @@ class Hydro : Bill
     {
         print("*************************")
         print("Bill ID : \(bId)")
+        print("Bill Type : \(bType)")
+        print("Name of Agency : \(aName)")
+        print("No.of units consumed : \(units)")
+        print("Bill Amount :\(bAmount)")
         
     }
     
