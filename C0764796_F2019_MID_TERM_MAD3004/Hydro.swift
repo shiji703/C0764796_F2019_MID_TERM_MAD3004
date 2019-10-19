@@ -17,6 +17,8 @@ class Hydro : Bill
     {
         self.aName = aName
         self.units = units
+        
+        super.init(bId: bId, bDate: bDate, bType: bType, bAmount: bAmount)
     }
     
     
