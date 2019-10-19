@@ -13,6 +13,7 @@ class Customer : iDisplay
     func iDisplay()
     {
         print("Customer ID : \(custId)")
+        print("Full Name : \(fullName)")
     }
     
     var custId: Int
