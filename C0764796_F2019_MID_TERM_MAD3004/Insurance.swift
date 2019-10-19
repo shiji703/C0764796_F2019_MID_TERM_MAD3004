@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+class Insurance
+{
+    var iType: String
+    var iProvider: String
+    var sDate: Date
+    var eDate: Date
+    var iMonth: Int
+}
