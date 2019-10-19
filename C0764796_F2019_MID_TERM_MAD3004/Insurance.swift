@@ -15,4 +15,9 @@ class Insurance
     var sDate: Date
     var eDate: Date
     var iMonth: Int
+    
+    init(iType: String,iProvider: String,sDate: Date,eDate: Date,iMonth: Int)
+    {
+        
+    }
 }
