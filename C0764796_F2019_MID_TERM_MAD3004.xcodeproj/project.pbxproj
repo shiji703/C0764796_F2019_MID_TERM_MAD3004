@@ -13,6 +13,7 @@
 		9B42C6F2235BC041003CC2F0 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42C6F1235BC041003CC2F0 /* Mobile.swift */; };
 		9B42C6F4235BC26D003CC2F0 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42C6F3235BC26D003CC2F0 /* Hydro.swift */; };
 		9B42C6F6235BC3BB003CC2F0 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42C6F5235BC3BB003CC2F0 /* Customer.swift */; };
+		9B42C6F8235BC5E3003CC2F0 /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42C6F7235BC5E3003CC2F0 /* Insurance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		9B42C6F1235BC041003CC2F0 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 		9B42C6F3235BC26D003CC2F0 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		9B42C6F5235BC3BB003CC2F0 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		9B42C6F7235BC5E3003CC2F0 /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				9B42C6F1235BC041003CC2F0 /* Mobile.swift */,
 				9B42C6F3235BC26D003CC2F0 /* Hydro.swift */,
 				9B42C6F5235BC3BB003CC2F0 /* Customer.swift */,
+				9B42C6F7235BC5E3003CC2F0 /* Insurance.swift */,
 			);
 			path = C0764796_F2019_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 				9B42C6F4235BC26D003CC2F0 /* Hydro.swift in Sources */,
 				9B42C6F0235BBEAF003CC2F0 /* Internet.swift in Sources */,
 				9B42C6EE235BBC8B003CC2F0 /* Bill.swift in Sources */,
+				9B42C6F8235BC5E3003CC2F0 /* Insurance.swift in Sources */,
 				9B42C6F6235BC3BB003CC2F0 /* Customer.swift in Sources */,
 				9B42C6E7235BBBA1003CC2F0 /* main.swift in Sources */,
 				9B42C6F2235BC041003CC2F0 /* Mobile.swift in Sources */,
