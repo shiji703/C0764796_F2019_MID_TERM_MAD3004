@@ -23,7 +23,13 @@ class Internet : Bill
     
     override func iDisplay()
     {
-        
+        print("*********************")
+        print("Bill ID : \(bId)")
+        print("Bill Date : \(bDate)")
+        print("Bill Type : \(bType)")
+        print("Name of provider : \(pName)")
+        print("Volume of data used : \(iGbused)")
+        print("Total Bill Amount : \(bAmount)")
     }
 
 }
