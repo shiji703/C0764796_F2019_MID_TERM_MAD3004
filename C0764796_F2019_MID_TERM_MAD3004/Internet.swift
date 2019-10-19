@@ -18,6 +18,7 @@ class Internet : Bill
         self.pName = pName
         self.iGbused = iGbused
         
-        
+        super.init(bId: bId, bDate: bDate, bType: bType, bAmount: bAmount)
     }
+
 }
