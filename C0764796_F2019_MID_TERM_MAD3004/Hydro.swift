@@ -13,5 +13,11 @@ class Hydro : Bill
     var aName : String
     var units : Int
     
+    init(aName: String,units: Int,bId: Int,bDate: Date,bType: String,bAmount: Float)
+    {
+        self.aName = aName
+        self.units = units
+    }
+    
     
 }
