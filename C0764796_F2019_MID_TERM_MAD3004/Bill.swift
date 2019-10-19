@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+class Bill
+{
+    var bId : Int
+    var bDate: Date
+    var bType : String
+    var bAmount : Float
+    
+}
