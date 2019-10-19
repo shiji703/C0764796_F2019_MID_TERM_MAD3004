@@ -9,4 +9,9 @@
 import Foundation
 
 class Hydro : Bill
-
+{
+    var aName : String
+    var units : Int
+    
+    
+}
