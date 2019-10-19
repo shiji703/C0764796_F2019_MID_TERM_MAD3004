@@ -16,4 +16,8 @@ class Mobile : Bill
     var iGbused : Float
     var minutes : Int
     
+    init(mName: String,planName: String,mNumber: Int,iGbused: Float,minutes: Int,bId: Int,bDate: Date,bType: String,bAmount: Float)
+    {
+        
+    }
 }
