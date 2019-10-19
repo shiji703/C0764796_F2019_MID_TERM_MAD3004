@@ -15,4 +15,12 @@ class Bill
     var bType : String
     var bAmount : Float
     
+    init(bId: Int,bDate: Date,bType: String,bAmount: Float)
+    {
+        self.bId = bId
+        self.bDate = bDate
+        self.bType = bType
+        self.bAmount = bAmount
+    }
+    
 }
