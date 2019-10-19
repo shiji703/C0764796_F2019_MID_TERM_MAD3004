@@ -19,7 +19,11 @@ class Customer
     
     init(custId: Int,fName: String,lName: String,fullName: String,eId: String)
     {
-        
+        self.custId = custId
+        self.fName = fName
+        self.lName = lName
+        self.fullName = fullName
+        self.eId = eId
     }
     
 }
