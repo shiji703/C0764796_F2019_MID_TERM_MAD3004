@@ -27,5 +27,5 @@ class Bill : iDisplay
         self.bAmount = bAmount
     }
     
-
+    
 }

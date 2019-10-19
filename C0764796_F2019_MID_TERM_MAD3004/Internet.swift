@@ -20,5 +20,10 @@ class Internet : Bill
         
         super.init(bId: bId, bDate: bDate, bType: bType, bAmount: bAmount)
     }
+    
+    override func iDisplay()
+    {
+        
+    }
 
 }
