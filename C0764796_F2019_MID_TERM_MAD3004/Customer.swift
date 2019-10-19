@@ -12,6 +12,7 @@ class Customer : iDisplay
 {
     func iDisplay()
     {
+        print("*****************************")
         print("Customer ID : \(custId)")
         print("Full Name : \(fullName)")
     }
