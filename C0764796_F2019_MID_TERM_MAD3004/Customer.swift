@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+class Customer
+{
+    var custId: Int
+    var fName: String
+    var lName: String
+    var fullName: String
+    var eId: String
+    
+}
