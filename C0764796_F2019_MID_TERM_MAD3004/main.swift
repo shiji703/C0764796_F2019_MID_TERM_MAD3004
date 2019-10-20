@@ -19,6 +19,7 @@ var m1 = Mobile(mName: "Apple.Inc", planName: "Prepaid Talk", mNumber: 987654321
 var c = Customer(custId: 1, fName: "Shiji", lName: "Eugin", fullName: "Shiji Eugin", eId: "shijieugin@gmailcom")
 var c1 = Customer(custId: 2, fName: "Diya", lName: "Thomas", fullName: "Diya Thomas", eId: "diyathomas@gmail.com")
 var n = Insurance(iType: "Home", iProvider: "ABC", sDate: date, eDate: date, iMonth: 03)
+var n1 = Insurance(iType: "Car", iProvider: "XYZ", sDate: date, eDate: date, iMonth: 07)
 
 for i in customerDictionary.values
 {
