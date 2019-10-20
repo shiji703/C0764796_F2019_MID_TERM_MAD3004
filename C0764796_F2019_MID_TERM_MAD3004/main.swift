@@ -21,8 +21,9 @@ var c1 = Customer(custId: 2, fName: "Diya", lName: "Thomas", fullName: "Diya Tho
 
 for i in customerDictionary.values
 {
-    
+    i.iDisplay()
 }
+
 
 
 
